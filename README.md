@@ -53,5 +53,16 @@
     >=            -->      Lớn hơn hoặc bằng
     <=            -->      Nhỏ hơn hoặc bằng
 
-# Lesson_9 Kiểu dữ liệu boolean
+# Lesson_9 Kiểu dữ liệu boolean trả về true and false
+    toán tử so sánh
+
+# Lesson_10 Câu lệnh điều kiện if else
+    <!--! Trong javascript có sáu giá trị sau khi convert sang boolean là false -->
+    0
+    false
+    " ", ''
+    undefined
+    NaN
+    null
+
     
