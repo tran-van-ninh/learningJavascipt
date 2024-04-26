@@ -43,3 +43,13 @@
     Postfix hậu tố
 
 # Lesson_7 Toán tử chuỗi string operator
+
+# Lesson_8 Toán tử so sánh
+    Toán tử
+    ==            -->      Bằng
+    !=            -->      Khác
+    >             -->      Lớn hơn
+    <             -->      Nhỏ hơn
+    >=            -->      Lớn hơn hoặc bằng
+    <=            -->      Nhỏ hơn hoặc bằng
+    
