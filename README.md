@@ -52,4 +52,6 @@
     <             -->      Nhỏ hơn
     >=            -->      Lớn hơn hoặc bằng
     <=            -->      Nhỏ hơn hoặc bằng
+
+# Lesson_9 Kiểu dữ liệu boolean
     
