@@ -8,4 +8,6 @@
     Confirm
     Prompt
     Set timeout
+<!-- Set timeout chạy đoạn code 1 lần sau một đoạn thời gian -->
     Set interval
+<!-- Set interval chạy lặp lại đoạn code sau một thời gian -->
