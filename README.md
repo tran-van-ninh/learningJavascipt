@@ -1,0 +1,2 @@
+# learningJavascipt
+tự học javascript
