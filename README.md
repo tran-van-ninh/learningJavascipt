@@ -28,3 +28,12 @@
     %       --> Chia lấy số dư
     ++       --> Tăng 1 giá trị số
     --       --> Giảm 1 giá trị số
+
+# Lesson_5 Toán tử gán - Assignment
+    Toán tử        Ví dụ              Tương đương
+    =              x = y              x = y
+    +=             x += y             x = x + y
+    -=             x -= y             x = x - y
+    *=             x *= y             x = x * y
+    /=             x /= y             x = x / y
+    **=            x **= y            x = x ** y

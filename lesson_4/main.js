@@ -26,3 +26,9 @@ console.log(" a + b = " + c);
 
 var d = a % b;
 console.log(" a % b = "  + d);
+
+var age = 20;
+
+var nextAge = ++age
+console.log("age = " + age);
+console.log(" next age = " + nextAge);
