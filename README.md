@@ -18,3 +18,13 @@
     2. Toán tử gán - Assignment
     3. Toán tử so sánh - Comparison
     4. Toán tử logic - Logical
+
+# Lesson_4 Toán tử số học Arithmetic
+    +       --> Cộng
+    -       --> Trừ
+    *       --> Nhân
+    **      --> Lũy thừa
+    /       --> Chia
+    %       --> Chia lấy số dư
+    ++       --> Tăng 1 giá trị số
+    --       --> Giảm 1 giá trị số
