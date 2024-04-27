@@ -84,5 +84,19 @@
     
 # Lesson_13 Toán tử so sánh II
     Toán tử
-    ===
-    !==
+    <!--todo so sánh tuyệt đối cả giá trị và data type -->
+        === 
+        !==
+    <!--todo so sánh tương đối giá trị -->
+        !=
+        ==
+
+# Lesson_14 Toán tử logical và câu lệnh điều kiện If
+
+    <!--todo toán tử && trả về kết quả một trong 2 vế đọc từ trái qua phải nếu gặp False dừng chương trình và trả về False nếu không trả về kết quả cuối cùng -->
+    var result = "A" && "B" && "C" && "D" && "E"
+    ==> E
+
+    <!--! Toán tử || đọc từ trái qua phải đến hết chương trình or gặp được kết quả True nó sẽ gắn vào kết quả và kết thúc chương trình -->
+    var result = "A" || "B" || "C" || "D" || "E"
+    ==> A
