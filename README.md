@@ -121,3 +121,6 @@
         - có tính private
         - có thể truyền nhiều tham số
     2. Đối tượng aguments
+
+# Lesson_17 Return trong hàm
+    - Hàm function không return trả về undefined
