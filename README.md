@@ -65,4 +65,9 @@
     NaN
     null
 
+# Lesson_11 Toán tử logical
+    1. && - And
+    2. || - Or
+    3. !  - Not
+
     
