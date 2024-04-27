@@ -100,3 +100,17 @@
     <!--! Toán tử || đọc từ trái qua phải đến hết chương trình or gặp được kết quả True nó sẽ gắn vào kết quả và kết thúc chương trình -->
     var result = "A" || "B" || "C" || "D" || "E"
     ==> A
+
+# Lesson_15 Khái niệm hàm trong javascript
+    1. Hàm?
+        - Một khối mã
+        - Làm 1 việc cụ thể
+    2. Loại hàm
+        - Built-in
+        - Tự định nghĩa
+    3. Tính chất
+        - Không thực thi khi định nghĩa
+        - sẽ thược thi khi được gọi
+        - Có thể nhận tham số
+        - Có thể trả vể một giá trị
+    4. Tạo hàm đầu tiên
