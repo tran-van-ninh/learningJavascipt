@@ -70,4 +70,15 @@
     2. || - Or
     3. !  - Not
 
+# Lesson_12 Kiểu dữ liệu Nguyên thủy(Primitive Data) and phức hợp (Complex Data)
+    1. Dữ liệu nguyên thủy
+        - Number
+        - String
+        - Boolean
+        - Undefined
+        - Null
+        - Symbol
+    2. dữ liệu phức hợp
+        - Function
+        - Object
     
