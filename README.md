@@ -114,3 +114,10 @@
         - Có thể nhận tham số
         - Có thể trả vể một giá trị
     4. Tạo hàm đầu tiên
+
+# Lesson_16 Hàm chứa tham số
+    1. Tham số
+        - Tham số là một giá trị mà mình có thể truyền vào khi gọi một function(param)
+        - có tính private
+        - có thể truyền nhiều tham số
+    2. Đối tượng aguments
