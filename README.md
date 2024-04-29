@@ -130,3 +130,13 @@
         1. Declarations function
         2. Exceptions function
         3. Arrows function
+
+# Lesson_19 Chuỗi trong Javascript
+    1. Tạo chuỗi
+        - Các cách tạo chuỗi
+        - Nên dùng cách nào? Lý do?
+        - Kiểm tra data type
+    2. Một số case sử dụng backslash (\)
+    3. Xem dộ dài chuỗi
+    4. Chú ý độ dài khi viết Code
+    5. Template string ES6
