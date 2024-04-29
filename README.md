@@ -140,3 +140,19 @@
     3. Xem dộ dài chuỗi
     4. Chú ý độ dài khi viết Code
     5. Template string ES6
+
+# Lesson_20 Làm việc với chuỗi
+    1. length
+    2. Find index 
+        -indexOf Tìm một ký tự hoặc một đoạn mã trong chuỗi trả về số thứ tự thằng đầu tiên nó tìm dược, nếu không có indexOf trả về -1
+    3. Cut string
+        - dủng slice cắt một đoạn chuỗi
+    4. Replace
+        - thay thế một đoạn chuỗi
+    5. Convert to upper case
+    6. Convert to lower case
+    7. Trim
+        - xóa khoảng trắng ở hai đầu
+    8. Split
+        - cắt một chuỗi thành 1 araay bởi 1 điểm chung
+    9. Get a character by index
