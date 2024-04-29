@@ -124,3 +124,9 @@
 
 # Lesson_17 Return trong hàm
     - Hàm function không return trả về undefined
+
+# Lesson_18 Các loại hàm
+    <!--todo Các lọai function -->
+        1. Declarations function
+        2. Exceptions function
+        3. Arrows function
