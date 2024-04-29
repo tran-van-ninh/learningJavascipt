@@ -156,3 +156,14 @@
     8. Split
         - cắt một chuỗi thành 1 araay bởi 1 điểm chung
     9. Get a character by index
+
+# Lesson_21 Number and working with numbers
+    1. Tạo giá trị Number
+        - Các cách tạo
+        - Dùng các nào? Tại sao?
+        - Kiểm tra data type
+    
+    2. Làm việc với Number
+        - To string
+        - To Fixed
+            + Làm tròn số thập phân
