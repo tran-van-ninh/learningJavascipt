@@ -167,3 +167,12 @@
         - To string
         - To Fixed
             + Làm tròn số thập phân
+
+# Lesson_22 Mảng array
+    1. Tạo mảng
+        - Cách tạo
+        - Sử dụng cách nào? Tại sao?
+        - Kiểm tra dât type?
+    2. Truy xuất mảng
+        - Độ dài mảng
+        - Lấy phần tử theo index
