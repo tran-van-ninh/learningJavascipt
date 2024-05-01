@@ -201,3 +201,16 @@
         this.age = age;
         this.gender = gender;
     }
+
+# Lesson_26 Object prototype
+     function Use(firstName, lastName, age, gender){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    Use.prototype.class = 'cooks';
+    1. Prototype là gì
+    2. Khi nào sử dụng prototype
+        Sử dụng khi các đối tượng có keyword cùng một giá trị
