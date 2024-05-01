@@ -189,3 +189,7 @@
         concat() : nối mảng mới vào mảng cũ
         reverse() : đảo ngược mảng
         sort() : sắp xếp mảng
+
+# Lesson_24 Object
+    - Cách tạo object
+    - Các thêm , xóa moottj thuộc tính trong object
