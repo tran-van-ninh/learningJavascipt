@@ -193,3 +193,11 @@
 # Lesson_24 Object
     - Cách tạo object
     - Các thêm , xóa moottj thuộc tính trong object
+
+# Lesson_25 Object constructor
+    function Use(firstName, lastName, age, gender){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.gender = gender;
+    }
