@@ -176,3 +176,16 @@
     2. Truy xuất mảng
         - Độ dài mảng
         - Lấy phần tử theo index
+# Lesson_23 Working with array
+    <!--todo Các kiểu phương thức của array -->
+        toString() : chuyển mảng thành chuỗi
+        join() : chuyển mảng thành chuỗi và thêm ký tự nối giữa các phần tử
+        pop() : xóa phần tử cuối mảng và trả về phần tử đó
+        push() : thêm phần tử vào cuối mảng và trả về độ dài mảng mới
+        shift() : xóa phần tử đầu mảng và trả về phần tử đó
+        unshift() : thêm phần tử vào đầu mảng và trả về độ dài mảng mới
+        splice() : xóa phần tử trong mảng và thêm phần tử mới vào vị trí cần thêm
+        slice() : lấy ra một phần mảng mới từ mảng cũ
+        concat() : nối mảng mới vào mảng cũ
+        reverse() : đảo ngược mảng
+        sort() : sắp xếp mảng
