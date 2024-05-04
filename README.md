@@ -219,3 +219,4 @@
 # Lesson_28 Math object
 # Lesson_29 If Else
 # Lesson_30 Lệnh rẽ nhánh Switch
+# Lesson_31 Toán tử 3 ngôi Ternary operator
