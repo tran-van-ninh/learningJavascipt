@@ -220,3 +220,10 @@
 # Lesson_29 If Else
 # Lesson_30 Lệnh rẽ nhánh Switch
 # Lesson_31 Toán tử 3 ngôi Ternary operator
+# Lesson_32 Vòng lặp Loop
+    1. For - Lặp với điều kiện đúng
+    2. For/in - Lặp qua key của đối tượng
+    3. For/of - Lặp qua value của đối tượng
+    4. While - Lặp khi điều kiện đúng
+    5. Do/while - Lặp ít nhất một lần, sau đó lặp lại khi điều kiện đúng
+    6. Vòng lặp lồng nhau
