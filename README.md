@@ -228,3 +228,11 @@
     5. Do/while - Lặp ít nhất một lần, sau đó lặp lại khi điều kiện đúng
     6. Vòng lặp lồng nhau
 # Lesson_33 Đệ quy
+# Lesson_34 Array methods continued
+    1. forEach();
+    2. every();
+    3. some();
+    4. find();
+    5. filter();
+    6. map();
+    7. reduce();
