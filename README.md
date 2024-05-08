@@ -128,7 +128,19 @@
 # Lesson_18 Các loại hàm
     <!--todo Các lọai function -->
         1. Declarations function
+            <!--todo có thể được gọi trước khi fuction được tạo  -->
+            showDeclarations();
+            function showDeclarations(){
+                console.log("Đây là một Declarations functions")
+
+            }
         2. Exceptions function
+            <!--todo sử dụng sau khi đã tạo function  -->
+            var showExceptions = function (){
+                console.log("Đây là một Exceptions functions")
+
+            }
+            showExceptions();
         3. Arrows function
 
 # Lesson_19 Chuỗi trong Javascript
@@ -238,3 +250,8 @@
     7. reduce();
 
 # Lesson_35 creat methods reduce
+# Lesson_36 include methods in array and string
+    <!--todo Include sử dụng để kiểm tra một phần tử có tồn tại trong mảng hay một chuỗi hay không và trả về true false -->
+
+# Lesson_37 hàm callback function
+    <!--todo là hàm được truyền qua đối số khi gọi qua hàm khác, và được gọi lại trong hàm nhận đối số -->
