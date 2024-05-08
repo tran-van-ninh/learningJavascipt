@@ -229,10 +229,12 @@
     6. Vòng lặp lồng nhau
 # Lesson_33 Đệ quy
 # Lesson_34 Array methods continued
-    1. forEach();
-    2. every();
-    3. some();
-    4. find();
-    5. filter();
-    6. map();
+    1. forEach(): Duyệt qua các phần tử của mảng
+    2. every() : Kiểm tra các phần tử trong mảng có thỏa mãn một điều kiện nào đó không nếu có thì trả về true, và trả về false ngay khi có một phần tử không thỏa mãn và kết thúc hành động
+    3. some(): Duyệt qua từng phần tử của mảng có 1 phần tử thỏa mãn trả về true,
+    4. find(): Duyệt từng phần tử trong mảng tìm thấy 1 phần tử phù hợp điều kiện trả về phần tử và kết thúc chương trình, không có trả về undefined
+    5. filter(): Duyệt từng phần tử tìm tất cả các phần tử phù hợp điều kiện và trả về kết quả, không có trả về undefined
+    6. map(): chỉnh sửa hay thay đổi =>> trả về một mảng mới không làm thay đổi kết cấu mảng ban đầu
     7. reduce();
+
+# Lesson_35 creat methods reduce
