@@ -9,7 +9,7 @@ function reduceMethod(arr){
 
 reduceMethod(numbers);
 
-function creatMedthodReduce(arr){
+function creatMethodReduce(arr){
     Array.prototype.reduce1 = function(callback, result){
         let i=0
         if(arguments.length < 2){
@@ -28,7 +28,7 @@ function creatMedthodReduce(arr){
     console.log(result);
 
 }
-creatMedthodReduce(numbers);
+creatMethodReduce(numbers);
 
 function arrToObj(arr){
     return arr.reduce((a, b)=>{

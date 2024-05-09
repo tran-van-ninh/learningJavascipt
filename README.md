@@ -255,3 +255,5 @@
 
 # Lesson_37 hàm callback function
     <!--todo là hàm được truyền qua đối số khi gọi qua hàm khác, và được gọi lại trong hàm nhận đối số -->
+
+# Lesson_38 Create your own methods in the array
