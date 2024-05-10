@@ -257,3 +257,13 @@
     <!--todo là hàm được truyền qua đối số khi gọi qua hàm khác, và được gọi lại trong hàm nhận đối số -->
 
 # Lesson_38 Create your own methods in the array
+    /**
+    * ! 1. Map
+    * ! 2. Reduce
+    * ! 3. every
+    * ! 4. some
+    * ! 5. find
+    * ! 6. filter
+    */
+
+# Lesson_39 Ôn tập method array
