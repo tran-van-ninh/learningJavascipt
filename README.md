@@ -298,3 +298,11 @@
             h1Element.title
         2. Thuộc tính không phù hợp
             h1Element.getAttribute('date')
+
+# Lesson_42 Text node
+    var h1Element = document.querySelector('h1');
+    <!--todo cách 1 dùng innerText khi getter lấy ra text trong Element bỏ qua các thẻ con chứa nó-->
+    <!--todo innerText là thuộc tính nằm trên Element node -->
+        h1Element.innerText = 'Text thay đổi';
+    <!--todo cách 2 dùng textContent Khi getter lấy ra text trong Element và cả các khoảng trắng-->
+        h1Element.textContent = 'Text thay đổi';
