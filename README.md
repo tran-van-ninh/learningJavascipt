@@ -282,3 +282,19 @@
         3. Trả về 1 Element
             document.getElementById('');
             document.querySelector('');
+
+# Lesson_41 Attribute nodes
+    <!--todo Cách để thêm một Attribute vào element -->
+    <!--todo How to add an Attribute to an element -->
+        1. Thuộc tính mặc định của thẻ
+            var h1Element = document.querySelector('h1');
+            h1Element.title = 'Đây là 1 ví dụ';
+        2. Thuộc tính không phù hợp
+            var h1Element = document.querySelector('h1');
+            h1Element.setAttribute('date', 'Hôm nay là thứ 2');
+    <!--todo Cách để lấy giá trị một thuộc tính -->
+    <!--todo How to get the value of an attribute -->
+        1. Thuộc tính mặc định
+            h1Element.title
+        2. Thuộc tính không phù hợp
+            h1Element.getAttribute('date')
