@@ -267,3 +267,18 @@
     */
 
 # Lesson_39 Ôn tập method array
+# Lesson_40 Dom and Get element methods
+    <!--! DOM -->
+        Gồm 3 thành phần
+            1. Element
+            2. Attribute
+            3. Text
+    <!--! Get element methods -->
+        1. Trả về HtmlCollection
+            document.getElementsByTagName('div');
+            document.getElementsByClassName('class');
+        2. Trả về NodeList
+            document.querySelectorAll('');
+        3. Trả về 1 Element
+            document.getElementById('');
+            document.querySelector('');
