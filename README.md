@@ -306,3 +306,8 @@
         h1Element.innerText = 'Text thay đổi';
     <!--todo cách 2 dùng textContent Khi getter lấy ra text trong Element và cả các khoảng trắng-->
         h1Element.textContent = 'Text thay đổi';
+
+# Lesson_43 Add an element to element
+    <!--todo sử dụng innerHTML và outerHTML Lấy dữ -->
+        1. innerHTML Lấy dữ liệu bên trong Element
+        2. outerHTML Lấy dữ liệu bên ngoài lấy cả Element
