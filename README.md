@@ -311,3 +311,5 @@
     <!--todo sử dụng innerHTML và outerHTML Lấy dữ -->
         1. innerHTML Lấy dữ liệu bên trong Element
         2. outerHTML Lấy dữ liệu bên ngoài lấy cả Element
+
+# Lesson_44
