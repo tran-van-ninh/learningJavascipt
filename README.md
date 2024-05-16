@@ -312,4 +312,5 @@
         1. innerHTML Lấy dữ liệu bên trong Element
         2. outerHTML Lấy dữ liệu bên ngoài lấy cả Element
 
-# Lesson_44
+# Lesson_44 Node Properties
+# Lesson_45 Dom css
