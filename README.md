@@ -321,3 +321,16 @@
         2. contains : Tìm trong class có chứa name phù hợp trả về true/false
         3. remove : Xóa 1 class name
         4. toggle : Luân phiên thay đổi class tồn tại thì xóa, không tồn tại thì thêm vào
+
+# Lesson_47 Dom Event
+    1. Attributes events
+        <h1 onclick = 'h1onclick()'>DOM EVENT 1</h1>
+        function h1onclick(){
+            console.log('Đây là thẻ của tôi');
+        }
+    2. Assign event using the element node
+        <h1>DOM EVENT 1</h1>
+        var h1Element = document.querySelector('h1');
+        h1Element.onclick = function(event){
+            console.log(event.target);
+        }
