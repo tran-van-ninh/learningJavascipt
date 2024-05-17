@@ -314,3 +314,10 @@
 
 # Lesson_44 Node Properties
 # Lesson_45 Dom css
+# Lesson_46 ClassList properties
+    <!--todo Các Method thường sử dụng nhất -->
+    <!--todo The most commonly used methods -->
+        1. add : Thêm một class name vào class
+        2. contains : Tìm trong class có chứa name phù hợp trả về true/false
+        3. remove : Xóa 1 class name
+        4. toggle : Luân phiên thay đổi class tồn tại thì xóa, không tồn tại thì thêm vào
