@@ -334,3 +334,5 @@
         h1Element.onclick = function(event){
             console.log(event.target);
         }
+
+# Lesson_48 Dom Event continute
