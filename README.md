@@ -336,3 +336,10 @@
         }
 
 # Lesson_48 Dom Event continute
+    1. input, select
+    2. key up, key down
+
+# Lesson_49 Dom Event continute
+    <!--Todo Dom event -->
+    1. preventDefault: ngăn chặn hành động mặc định mà trình duyệt thực hiện đối với sự kiện đó.
+    2. stopPropagation: ngăn chặn sự lan truyền thêm của sự kiện hiện tại trong các giai đoạn bắt giữ và tạo bọt.
