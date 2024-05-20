@@ -343,3 +343,15 @@
     <!--Todo Dom event -->
     1. preventDefault: ngăn chặn hành động mặc định mà trình duyệt thực hiện đối với sự kiện đó.
     2. stopPropagation: ngăn chặn sự lan truyền thêm của sự kiện hiện tại trong các giai đoạn bắt giữ và tạo bọt.
+
+# Lesson_50 Dom Methods
+    1. Event Listener
+    2. JSON
+    3. Fetch
+    4. DOM location
+    5. Local storage
+    6. Session storage
+    7. Coding convention
+    8. Best practices
+    9. Mistakes
+    10. Performance
