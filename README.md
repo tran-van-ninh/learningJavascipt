@@ -355,3 +355,15 @@
     8. Best practices
     9. Mistakes
     10. Performance
+
+# Lesson_51 Json Methods
+    <!--todo Json (Javascript Object Notation) là một định dạng dữ liệu (chuỗi) -->
+    <!--todo Các kiểu dữ liệu json thể hiện -->
+        1. Number
+        2. Boolean
+        3. null
+        4. Array
+        5. Object
+    <!--todo các thao tác trong json -->
+        1. Mã hóa : encode; => stringify chuyển từ javascript sang json
+        2. Giải mã : decode; => parse từ json chuyển về javascript
