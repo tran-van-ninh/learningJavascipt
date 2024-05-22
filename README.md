@@ -367,3 +367,45 @@
     <!--todo các thao tác trong json -->
         1. Mã hóa : encode; => stringify chuyển từ javascript sang json
         2. Giải mã : decode; => parse từ json chuyển về javascript
+
+# Lesson_52 Promise
+    <!--todo promise được sinh ra để xử lý các thao tác bất đồng bộ -->
+
+    <!--todo trước khi có promise chúng ta thường xử dụng callBack() và callBack() thường xảy ra vấn đề callBack hell code rất khó nhìn và bị rối, khó hiểu -->
+
+    <!--todo promise được sinh ra từ phiên bản js mới hơn trong phiên bản ES6 và chúng ta có thể xử dụng nó khắc phục tình trạng callBack  hell giúp code của chúng ta dễ hiểu hơn-->
+
+    1. Sync: đồng bộ
+    2. Async: Bất đồng bộ
+    <!--todo các bất đồng bộ thường gặp -->
+        1. setTimeout()
+        2. setInterval()
+        3. fetch
+        4. XMLHttpRequest
+        4. reading file
+        5. request animation far
+    <!--todo -->
+        <!--todo để tạo ra một promise chúng ta dùng từ khóa new Promise trong contructor của nó ta tạo Excutor function khi function được thực thi ta thu được 2 tham số resolve và reject -->
+            <!--! resolve sẽ được gọi khi thao tác của chúng ta thành công -->
+            <!--! reject được gọi khi thao tác thất bại -->
+        var promise = new Promise(
+            // Executor
+            function(resolve, reject) {
+                //logic
+                //! Thành công: resolve();
+                //! Thất bại: reject();
+
+            }
+        );
+        <!--! khi mà resolve() được gọi -->
+        promise.then(function(){
+
+        })
+        <!--! Khi mà reject() được gọi -->
+        promise.catch(funciton(){
+
+        })
+        <!--! khi mà một trong hai resolve() hoặc reject() được gọi -->
+        promise.finally(function(){
+
+        })
