@@ -409,3 +409,8 @@
         promise.finally(function(){
 
         })
+
+# Lesson_53 Promise methods
+    1. Promise.resolve();
+    2. Promise.reject();
+    3. Promise.All();
