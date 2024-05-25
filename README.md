@@ -413,4 +413,10 @@
 # Lesson_53 Promise methods
     1. Promise.resolve();
     2. Promise.reject();
-    3. Promise.All();
+    3. Promise.All(); Thực hiện đông thời các promise để tối ưu ứng dụng
+
+# Lesson_54 Promise example
+
+# Lesson_55 Fetch
+    Api: Application Programing Interface là cổng giao tiếp giữa các phần mềm
+    
