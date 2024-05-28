@@ -419,4 +419,14 @@
 
 # Lesson_55 Fetch
     Api: Application Programing Interface là cổng giao tiếp giữa các phần mềm
-    
+
+# Lesson_56 Sử dụng Postman làm việc với REST API
+    <!-- TOdo json-server: Api server (Fake) / Mock Api ==> OK -->
+    <!-- ! CRUD -->
+        /**
+        * ! Create : Tạo mới
+        * ! Read : Lấy dữ liệu
+        * ! Update : Chỉnh sửa
+        * ! Delete : xóa
+        */
+    <!-- Todo postMan -->
