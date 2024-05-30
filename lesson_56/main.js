@@ -71,7 +71,8 @@ function renderCourses(courses) {
         return `<li class = "course-item-${course.id}">
                     <h4>${course.name}</h4>
                     <p>${course.description}</p>
-                    <button onclick = "deleteCourse(${course.id})">Xóa</button>
+                    <button style = "color:red" onclick="deleteCourse(${course.id})">Xóa</button>
+                    <button style = "color:blue" data-id = "${course.id}" data-name = "${course.name}" data-description = "${course.description}" class="update-course-${course.id}" onclick = "handleUpdateCourse(event)" >sửa</button>
                 </li>`
     })
     listCoursesBlock.innerHTML = htmls.join('');
@@ -80,11 +81,11 @@ function renderCourses(courses) {
 function handleCreateForm() {
     var createBtn = document.querySelector('#create');
     createBtn.onclick = function() {
-        var name = document.querySelector('input[name="name"]').value;
-        var description = document.querySelector('input[name="description"]').value;
+        var name = document.querySelector('input[name="name"]');
+        var description = document.querySelector('input[name="description"]');
         var formData = {
-            name: name,
-            description: description
+            name: name.value,
+            description: description.value
         }
         createCourse(formData, function(course) {
             console.log(course);
@@ -94,10 +95,36 @@ function handleCreateForm() {
             var newCourseHtml = `<li class="course-item-${course.id}">
                                     <h4>${course.name}</h4>
                                     <p>${course.description}</p>
-                                    <button onclick="deleteCourse(${course.id})">Xóa</button>
+                                    <button style = "color:red" onclick="deleteCourse(${course.id})">Xóa</button>
+                                    <button style = "color:blue" data-id = "${course.id}" data-name = "${course.name}" data-description = "${course.description}" class="update-course-${course.id})"  onclick = "handleUpdateCourse(event)">sửa</button>
                                 </li>`;
             listCourse.insertAdjacentHTML('beforeend', newCourseHtml);
+            name.value = "";
+            description.value = "";
         });
 
     }
+}
+
+function updateCourse(data, id, callBack) {
+    var option = {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json",
+            // 'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: JSON.stringify(data)
+    }
+    fetch(coursesApi + "/" + id, option)
+        .then(function(response) {
+            return response
+        })
+        .then(callBack)
+}
+
+function handleUpdateCourse(event) {
+    console.log(event.target);
+
+    console.log(event.target.getAttribute("data-description"));
+
 }
