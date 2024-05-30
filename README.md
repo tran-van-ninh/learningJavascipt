@@ -454,3 +454,5 @@
     var: Là từ khóa để khai báo một biến có giá trị có thể gán lại sau khi khởi tạo. Tuy nhiên, biến được khai báo bằng từ khóa var có phạm vi toàn cục (global scope) hoặc phạm vi hàm (function scope), và nó có thể được truy cập bên ngoài phạm vi đó. Nghĩa là: Khi khai báo var, bạn có thể viết ở trên đầu của toàn bộ code của bạn để có thể truy cập và gán lại giá trị của nó ở bất cứ nơi đâu không giới hạn. Hoặc nếu khai báo trong phạm vi hàm thì nó chỉ có thể được truy cập trong phạm vi hàm thôi. Ra ngoài hàm sẽ báo lỗi.
 
 # Lesson_59 Template literals and Multi-line string
+
+# Lesson_60 Arrow functions
