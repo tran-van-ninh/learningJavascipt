@@ -456,3 +456,29 @@
 # Lesson_59 Template literals and Multi-line string
 
 # Lesson_60 Arrow functions
+    var sum = (a,b) => a + b;
+    var students = (a,b) => ({name:a,value:b});
+    var logger = log ==> consolo.log(log);
+    <!--!todo arrow function dùng để viết ngắn gọn hơn, không sử dụng arrow fuction với các trường hợp cần ngử cảnh this, constructor -->
+
+# Lesson_61 Classes
+    class Student {
+        constructor(name, age, email) {
+            this.name = name;
+            this.age = age;
+            this.email = email;
+
+        }
+        getName() {
+            return this.name;
+        }
+        getAge() {
+            if (this.age > 18) {
+                return this.age;
+            } else {
+                return "bạn chưa đủ 18 tuổi"
+            }
+        }
+    }
+    var student1 = new Student("Ninh Trần", 17, "dinhmanhninhtt@gmail.com");
+    console.log(student1.getAge());
