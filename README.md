@@ -424,9 +424,31 @@
     <!-- TOdo json-server: Api server (Fake) / Mock Api ==> OK -->
     <!-- ! CRUD -->
         /**
-        * ! Create : Tạo mới
-        * ! Read : Lấy dữ liệu
-        * ! Update : Chỉnh sửa
-        * ! Delete : xóa
+        * ! Create : Tạo mới        ==> POST() 
+        * ! Read : Lấy dữ liệu      ==> GET()
+        * ! Update : Chỉnh sửa      ==> PUT() OR PATCH()
+        * ! Delete : xóa            ==> DELETE()
         */
     <!-- Todo postMan -->
+
+# Lesson_57 ECMAScript
+    <!--todo ESC  -->
+        1. Let, const
+        2. Template Literals
+        3. Multi-Line String
+        4. Arrow function
+        5. Classes
+        6. Default parameter values
+        7. Destructuring
+        8. Rest Parameters
+        9. Spread
+        10. Enhanced object literals
+        11. Tagged template literals
+        12. Modules
+
+# Lesson_57 Lest & const
+    const (Hằng số): Là từ khóa để khai báo một hằng số, tức là một giá trị mà không thể thay đổi sau khi khởi tạo. Một lần khởi tạo giá trị, nó không thể được gán lại với giá trị khác. Chỉ truy cập trong phạm vi là một hàm (Phạm vi khối) nghĩa là phạm vi xác định trong cặp {}.
+
+    let: Là từ khóa để khai báo một biến có giá trị có thể thay đổi sau khi khởi tạo. Một biến được khai báo bằng từ khóa let có thể được khởi tạo mà không cần phải gán giá trị ngay lập tức. Ví dụ: let a;
+
+    var: Là từ khóa để khai báo một biến có giá trị có thể gán lại sau khi khởi tạo. Tuy nhiên, biến được khai báo bằng từ khóa var có phạm vi toàn cục (global scope) hoặc phạm vi hàm (function scope), và nó có thể được truy cập bên ngoài phạm vi đó. Nghĩa là: Khi khai báo var, bạn có thể viết ở trên đầu của toàn bộ code của bạn để có thể truy cập và gán lại giá trị của nó ở bất cứ nơi đâu không giới hạn. Hoặc nếu khai báo trong phạm vi hàm thì nó chỉ có thể được truy cập trong phạm vi hàm thôi. Ra ngoài hàm sẽ báo lỗi.
