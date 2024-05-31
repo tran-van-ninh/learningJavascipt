@@ -502,3 +502,5 @@
     3. Phân biệt toán tử Rest và Spread
         Toán tử Rest: được sử dụng trong 2 trường hợp đó là khi bạn kết hợp với Destructuring hoặc trong trường hợp định nghĩa ra tham số
         Các trường hợp còn lại là toán tử Spread
+
+# Lesson_65 Spread
