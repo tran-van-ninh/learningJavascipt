@@ -484,3 +484,14 @@
     console.log(student1.getAge());
 
 # Lesson_62 Default parameter values
+    function logger(log = "giá trị mặc định", isAlert) {
+    if (isAlert) {
+        return alert(log);
+    }
+    console.log(log);
+}
+
+# Lesson_63 Enhanced object literals
+    1. Định nghĩa Key: value cho object
+    2. Định nghĩa method cho object
+    3. Định nghĩa key cho object dưới dạng biến
