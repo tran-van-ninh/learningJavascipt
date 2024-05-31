@@ -495,3 +495,10 @@
     1. Định nghĩa Key: value cho object
     2. Định nghĩa method cho object
     3. Định nghĩa key cho object dưới dạng biến
+
+# Lesson_64 Destructuring, Rest
+    1. Destructuring: phân rã - cách thuận tiện để lấy giá trị ra khỏi object và array
+    2. Toán tử rest: toán tử 3 chấm - lấy ra những phần còn lại trong object và array
+    3. Phân biệt toán tử Rest và Spread
+        Toán tử Rest: được sử dụng trong 2 trường hợp đó là khi bạn kết hợp với Destructuring hoặc trong trường hợp định nghĩa ra tham số
+        Các trường hợp còn lại là toán tử Spread
