@@ -482,3 +482,5 @@
     }
     var student1 = new Student("Ninh Trần", 17, "dinhmanhninhtt@gmail.com");
     console.log(student1.getAge());
+
+# Lesson_62 Default parameter values
