@@ -506,3 +506,19 @@
 # Lesson_65 Spread
 
 # Lesson_66 Tagged template literals
+
+# Lesson_67 Modules
+
+# Lesson_68 Optional chaining
+    Nếu ta nghi ngờ :
+    Trong object không có đối tượng
+    Trong mảng không có đối tượng ở index đó
+    Một hàm có hay không có => Thì lúc call đến 3 cái trên ta thêm toán tử ?. vào sau các đối tượng trên.
+        <!--todo Syntax  -->
+            const obj = {
+                myFunction: function(message) {
+                //console.log(message)
+                return message
+                }
+            }
+            console.log(obj.myFunction?.("Chúc bạn may mắn lần sau") ? "Chúc bạn may mắn" : "Hẹn gặp lại")
