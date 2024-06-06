@@ -522,3 +522,7 @@
                 }
             }
             console.log(obj.myFunction?.("Chúc bạn may mắn lần sau") ? "Chúc bạn may mắn" : "Hẹn gặp lại")
+
+# Lesson_69 Create todo
+
+# Lesson_70 Create music player small
